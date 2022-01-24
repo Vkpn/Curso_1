@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Formulários </title>
+</head>
+<body>
+	<form> 
+		<div> <!-- Aula 1 de formulários -->
+			Login:<br>
+			<input type="text" name="Nome" placeholder="Nome"><br>
+			<input type="password" name="Senha" placeholder="Senha"><br>
+		</div><br>
+		<div> <!--Aula 2 de formulários = Radio Button-->
+			Genero:<br>
+			<input type="radio" name="genero" value="M">Masculino<br>
+			<input type="radio" name="genero" value="F">Feminino<br>
+			<input type="radio" name="genero" value="A">Helicoptero Apache <br>
+			<input type="radio" name="genero" value="N" checked>Não informado<br>
+		</div><br>
+		<div><!--Aula 3 de formulários = Checkbox-->
+			Interesses:<br>
+			<input type="checkbox" name="opçao1" value="Musica"> Musica<br>
+			<input type="checkbox" name="opçao2" value="Sk8"> Sk8<br>
+			<input type="checkbox" name="opçao3" value="Dança"> Dança<br>
+			<input type="checkbox" name="opçao4" value="Judo"> Judo<br>
+		</div><br>
+		<div><!-- Aula 5 de formulário = Select-->
+			<select name="dias da semana" size="3" multiple>
+				<option value="Seg">Segunda</option>
+				<option value="ter">Terça</option>
+				<option value="qua">Quarta</option>
+				<option value="qui">Quinta</option>
+				<option value="Sex" selected>Sexta</option>		
+			</select>
+		</div><br>
+		<div><!-- Aula 6 de formulários = Datalist-->
+			Período:<br>
+			<input type="text" name="Período" list="Per">
+				<datalist id="Per">
+					<option value="Manhã">
+					<option value="Tarde">
+					<option value="Noite">
+					<option value="Madrugada">					
+				</datalist>
+		</div><br>
+		<div><!-- Aula 7 de formulários = Text Area-->
+			Sugestões:<br>
+			<textarea name="Sugestões" style="width: 200px; height: 50px;"></textarea>
+		</div><br>
+		<div > <!--Aula 4 de Formulários = Send e Reset Button-->
+			<input type="submit"> 
+			<input type="reset" value="Reset">
+		</div><br>
+	</form>
+</body>
+</html>
